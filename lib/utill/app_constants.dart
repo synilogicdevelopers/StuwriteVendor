@@ -3,9 +3,9 @@ import 'package:sixvalley_vendor_app/utill/images.dart';
 import '../features/shop/domain/models/guideline_model.dart';
 
 class AppConstants {
-  static const String appName = 'Vendor App'; ///Flutter SDK 3.41.1
+  static const String appName = 'StuWrite'; ///Flutter SDK 3.41.1
   static const String appVersion = '16.1';
-  static const String companyName = '6Valley';
+  static const String companyName = 'StuWrite';
   static const bool demo = false;
   static const int imageQuality = 100;
 
