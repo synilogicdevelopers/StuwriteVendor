@@ -4,6 +4,7 @@ import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widge
 import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
 import 'package:sixvalley_vendor_app/features/shop/widgets/business_setup_guideline.dart';
 import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
+import 'package:sixvalley_vendor_app/helper/color_helper.dart';
 import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
 import 'package:sixvalley_vendor_app/utill/dimensions.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
@@ -162,11 +163,14 @@ class Button extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: Dimensions.paddingSizeExtraSmall, horizontal: Dimensions.paddingSizeSmall),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(50),
-          color: isSelected ? Theme.of(context).primaryColor : Theme.of(context).hintColor.withValues(alpha: 0.35),
+          color: isSelected ? Theme.of(context).primaryColor :
+          Provider.of<ThemeController>(context).darkTheme ?
+          ColorHelper.blendColors(Colors.white, Theme.of(context).highlightColor, 0.9) :
+          Theme.of(context).hintColor.withValues(alpha: 0.35),
         ),
         child: Text(title, style: isSelected ?
-        robotoBold.copyWith(color: Theme.of(context).highlightColor, fontSize: Dimensions.fontSizeDefault) :
-        robotoRegular.copyWith(color: Theme.of(context).textTheme.headlineLarge?.color, fontSize: Dimensions.fontSizeDefault)
+        robotoBold.copyWith(color: Theme.of(context).colorScheme.secondaryContainer, fontSize: Dimensions.fontSizeDefault) :
+        robotoRegular.copyWith(color: Theme.of(context).textTheme.bodyLarge?.color, fontSize: Dimensions.fontSizeDefault)
         ),
       ),
     );

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
 import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
 import 'package:sixvalley_vendor_app/utill/dimensions.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
 import 'package:sixvalley_vendor_app/utill/styles.dart';
+
+import '../../../theme/controllers/theme_controller.dart';
 
 class EmptyEarningStateWidget extends StatelessWidget {
   const EmptyEarningStateWidget({super.key});
@@ -19,7 +22,9 @@ class EmptyEarningStateWidget extends StatelessWidget {
       alignment: Alignment.center,
       child: Column(children: [
 
-        const CustomAssetImageWidget(Images.emptyEarningIcon, height: 45, width: 45),
+        CustomAssetImageWidget(Images.emptyEarningIcon, height: 45, width: 45,
+          color: Provider.of<ThemeController>(context).darkTheme ? Colors.white : Theme.of(context).hintColor,
+        ),
         const SizedBox(height: Dimensions.paddingSizeSmall),
         
         Text(getTranslated('no_statistics_generated_yet', context)!, style: robotoMedium.copyWith(

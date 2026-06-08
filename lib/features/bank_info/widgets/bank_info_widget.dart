@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
+import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
 import 'package:sixvalley_vendor_app/utill/dimensions.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
 import 'package:sixvalley_vendor_app/utill/styles.dart';
@@ -46,7 +48,12 @@ class BankInfoWidget extends StatelessWidget {
 
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Padding(padding:  const EdgeInsets.only(right: Dimensions.paddingSizeDefault, left: Dimensions.paddingSizeDefault),
-                    child: SizedBox(width: 40, child: Image.asset(Images.accountHolder))),
+                    child: SizedBox(width: 40, child: Image.asset(
+                      Images.accountHolder,
+                      color: Provider.of<ThemeController>(context).darkTheme
+                          ? const Color(0xFFFFFFFF)
+                          : const Color(0xFF070606),
+                    ))),
 
                 Expanded(child: CardItem(title: 'ac_holder',value: name)),
              ]),

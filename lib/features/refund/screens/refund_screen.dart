@@ -330,7 +330,7 @@ class RefundTypeButton extends StatelessWidget {
           decoration: BoxDecoration(
             color: refund.refundTypeIndex == index ? Theme.of(context).primaryColor :
             Provider.of<ThemeController>(context).darkTheme ?
-            ColorHelper.blendColors(Colors.white, Theme.of(context).colorScheme.surfaceTint, 0.15) :
+            ColorHelper.blendColors(Colors.white, Theme.of(context).highlightColor, 0.9) :
             Theme.of(context).colorScheme.secondaryContainer,
             borderRadius: BorderRadius.circular(Dimensions.paddingSizeLarge),
           ),

@@ -61,7 +61,10 @@ class MostPopularProductScreen extends StatelessWidget {
                 },
               ),
             ) : Padding(padding: EdgeInsets.only(top: isMain ? 0.0 : MediaQuery.of(context).size.height / 3),
-              child: const NoDataScreen(title: 'no_product_found', color: Colors.white),
+              child: NoDataScreen(
+                title: 'no_product_found',
+                color: Provider.of<ThemeController>(context).darkTheme ? Colors.white : Theme.of(context).hintColor,
+              ),
             ) : const SizedBox.shrink(),
 
             productController.isLoading ? Center(child: Padding(
