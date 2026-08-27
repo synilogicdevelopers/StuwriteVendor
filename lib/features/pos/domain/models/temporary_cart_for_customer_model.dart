@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/pos/domain/models/cart_model.dart';
+import 'package:stuwrite_vendor/features/pos/domain/models/cart_model.dart';
 
 class TemporaryCartListModel {
   List<CartModel>? cart;

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/top_selling_product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/title_row_widget.dart';
-import 'package:sixvalley_vendor_app/features/product/screens/product_list_view_screen.dart';
-import 'package:sixvalley_vendor_app/features/product/widgets/top_most_product_card_widget.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/top_selling_product_model.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/product/controllers/product_controller.dart';
+import 'package:stuwrite_vendor/theme/controllers/theme_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:stuwrite_vendor/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/title_row_widget.dart';
+import 'package:stuwrite_vendor/features/product/screens/product_list_view_screen.dart';
+import 'package:stuwrite_vendor/features/product/widgets/top_most_product_card_widget.dart';
 
 class TopSellingProductScreen extends StatelessWidget {
   final bool isMain;

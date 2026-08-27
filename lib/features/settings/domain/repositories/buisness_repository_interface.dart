@@ -1,3 +1,3 @@
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:stuwrite_vendor/interface/repository_interface.dart';
 
 abstract class BusinessRepositoryInterface implements RepositoryInterface{}

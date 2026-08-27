@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/tax_vat_model.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/tax_vat_model.dart';
 
 class PricingModel {
   bool? success;

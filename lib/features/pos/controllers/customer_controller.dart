@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/customer_model.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/services/cart_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:stuwrite_vendor/features/pos/domain/models/customer_model.dart';
+import 'package:stuwrite_vendor/features/pos/domain/services/cart_service_interface.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
+import 'package:stuwrite_vendor/main.dart';
 
 
 class CustomerController extends ChangeNotifier{

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/services/cart_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:stuwrite_vendor/features/pos/domain/services/cart_service_interface.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
+import 'package:stuwrite_vendor/helper/price_converter.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/main.dart';
 
 
 class CouponDiscountController extends ChangeNotifier{

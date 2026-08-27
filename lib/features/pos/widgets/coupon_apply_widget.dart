@@ -1,14 +1,14 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/coupon_discount_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/customer_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_field_with_title_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/coupon_discount_controller.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/customer_controller.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_field_with_title_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
 
 class CouponDialogWidget extends StatelessWidget {
   final double extraDiscountAmount;

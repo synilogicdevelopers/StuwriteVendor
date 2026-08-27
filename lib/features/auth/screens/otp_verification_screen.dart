@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/auth/enums/from_page.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/config_model.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/reset_password_widget.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/auth/enums/from_page.dart';
+import 'package:stuwrite_vendor/features/splash/domain/models/config_model.dart';
+import 'package:stuwrite_vendor/helper/color_helper.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:stuwrite_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:stuwrite_vendor/main.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/features/auth/widgets/reset_password_widget.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class VerificationScreen extends StatelessWidget {
   final String mobileNumber;

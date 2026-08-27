@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_confirmation_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/order_edit/screens/edit_product_screen.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_confirmation_dialog_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_dialog_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:stuwrite_vendor/features/order/domain/models/order_model.dart';
+import 'package:stuwrite_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:stuwrite_vendor/features/order_edit/screens/edit_product_screen.dart';
+import 'package:stuwrite_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 import '../../../main.dart';
 
 

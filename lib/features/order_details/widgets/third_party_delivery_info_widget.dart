@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/order/domain/models/order_model.dart';
+import 'package:stuwrite_vendor/helper/color_helper.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class ThirdPartyDeliveryInfoWidget extends StatelessWidget {
   final Order? orderModel;

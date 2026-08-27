@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
 
 class OrderEditCartModel {
   int? _id;

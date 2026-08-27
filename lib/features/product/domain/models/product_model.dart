@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/tax_vat_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/enums/product_type_enum.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
+import 'package:stuwrite_vendor/data/model/image_full_url.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/tax_vat_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/enums/product_type_enum.dart';
+import 'package:stuwrite_vendor/helper/date_converter.dart';
 
 class ProductModel {
 

@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
 
 abstract class OrderEditServiceInterface {
 

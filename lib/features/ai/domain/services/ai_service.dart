@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/features/ai/domain/repositories/ai_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/ai/domain/services/ai_service_interface.dart';
+import 'package:stuwrite_vendor/features/ai/domain/repositories/ai_repository_interface.dart';
+import 'package:stuwrite_vendor/features/ai/domain/services/ai_service_interface.dart';
 import 'package:image_picker/image_picker.dart';
 
 

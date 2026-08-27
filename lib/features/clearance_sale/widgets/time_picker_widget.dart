@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/show_custom_time_picker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/clearance_sale/widgets/show_custom_time_picker.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class TimePickerWidget extends StatefulWidget {
   final String title;

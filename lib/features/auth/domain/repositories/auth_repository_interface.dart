@@ -1,7 +1,7 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/models/register_model.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/auth/domain/models/register_model.dart';
+import 'package:stuwrite_vendor/interface/repository_interface.dart';
 
 abstract class AuthRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> login({String? emailAddress, String? password});

@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
+import 'package:stuwrite_vendor/data/model/image_full_url.dart';
 
 class ShopModel {
   int? id;

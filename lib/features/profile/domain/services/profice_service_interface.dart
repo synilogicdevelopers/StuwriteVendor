@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
+import 'package:stuwrite_vendor/features/profile/domain/models/profile_body.dart';
+import 'package:stuwrite_vendor/features/profile/domain/models/profile_info.dart';
 
 abstract class ProfileServiceInterface {
   Future<dynamic> getSellerInfo();

@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:stuwrite_vendor/localization/models/language_model.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
 import '../features/shop/domain/models/guideline_model.dart';
 
 class AppConstants {

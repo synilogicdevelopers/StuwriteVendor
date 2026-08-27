@@ -4,18 +4,18 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/variation_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/product_image_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/services/add_product_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/helper/image_size_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/data/model/image_full_url.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/variation_controller.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/image_model.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/product_image_model.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/services/add_product_service_interface.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
+import 'package:stuwrite_vendor/helper/image_size_checker.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/main.dart';
 
 
 class AddProductImageController extends ChangeNotifier {

@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/features/vat_management/domain/repositories/vat_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/vat_management/domain/services/vat_service_interface.dart';
+import 'package:stuwrite_vendor/features/vat_management/domain/repositories/vat_repository_interface.dart';
+import 'package:stuwrite_vendor/features/vat_management/domain/services/vat_service_interface.dart';
 
 class VatService implements VatServiceInterface {
   final VatRepositoryInterface vatRepoInterface;

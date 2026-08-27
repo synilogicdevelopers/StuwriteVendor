@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_details_model.dart';
-import 'package:sixvalley_vendor_app/features/order_edit/domain/models/order_edit_cart_model.dart';
-import 'package:sixvalley_vendor_app/features/order_edit/domain/services/order_edit_service_interface.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:stuwrite_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:stuwrite_vendor/features/order_details/domain/models/order_details_model.dart';
+import 'package:stuwrite_vendor/features/order_edit/domain/models/order_edit_cart_model.dart';
+import 'package:stuwrite_vendor/features/order_edit/domain/services/order_edit_service_interface.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
 
 import '../../../main.dart';
 

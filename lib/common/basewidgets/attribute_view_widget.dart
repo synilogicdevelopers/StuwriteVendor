@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/variation_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/widgets/add_product_section_widget.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/variation_controller.dart';
+import 'package:stuwrite_vendor/features/addProduct/widgets/add_product_section_widget.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/add_product_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 
 

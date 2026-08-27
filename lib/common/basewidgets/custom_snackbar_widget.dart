@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:stuwrite_vendor/main.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
 import 'custom_toast.dart';
 
 enum SnackBarType {

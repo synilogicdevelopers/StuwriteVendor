@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/chat/domain/models/chat_model.dart';
+import 'package:stuwrite_vendor/features/chat/domain/models/chat_model.dart';
 
 class MessageModel {
   int? totalSize;

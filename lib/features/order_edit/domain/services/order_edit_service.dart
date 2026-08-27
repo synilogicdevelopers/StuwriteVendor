@@ -1,6 +1,6 @@
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/order_edit/domain/repositories/order_edit_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order_edit/domain/services/order_edit_service_interface.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/order_edit/domain/repositories/order_edit_repository_interface.dart';
+import 'package:stuwrite_vendor/features/order_edit/domain/services/order_edit_service_interface.dart';
 
 class OrderEditService implements OrderEditServiceInterface {
   final OrderEditRepositoryInterface orderEditRepositoryInterface;

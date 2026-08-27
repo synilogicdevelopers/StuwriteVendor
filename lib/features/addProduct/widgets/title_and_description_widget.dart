@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/ai/controllers/ai_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:stuwrite_vendor/features/ai/controllers/ai_controller.dart';
+import 'package:stuwrite_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/add_product_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 class TitleAndDescriptionWidget extends StatefulWidget {
   final AddProductController resProvider;
   final int index;

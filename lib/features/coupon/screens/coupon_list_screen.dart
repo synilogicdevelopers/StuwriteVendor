@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/features/coupon/widgets/coupon_details_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/coupon/controllers/coupon_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/coupon/screens/add_new_coupon_screen.dart';
-import 'package:sixvalley_vendor_app/features/coupon/widgets/coupon_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/order/screens/order_screen.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_dialog_widget.dart';
+import 'package:stuwrite_vendor/features/coupon/widgets/coupon_details_dialog_widget.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/coupon/controllers/coupon_controller.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:stuwrite_vendor/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:stuwrite_vendor/features/coupon/screens/add_new_coupon_screen.dart';
+import 'package:stuwrite_vendor/features/coupon/widgets/coupon_card_widget.dart';
+import 'package:stuwrite_vendor/features/order/screens/order_screen.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
 
 
 

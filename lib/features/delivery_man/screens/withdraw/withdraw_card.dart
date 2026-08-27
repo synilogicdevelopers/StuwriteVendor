@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_withdraw_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/withdraw/withdraw_details_screen.dart';
+import 'package:stuwrite_vendor/features/delivery_man/domain/model/delivery_man_withdraw_model.dart';
+import 'package:stuwrite_vendor/helper/date_converter.dart';
+import 'package:stuwrite_vendor/helper/price_converter.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/features/delivery_man/screens/withdraw/withdraw_details_screen.dart';
 
 class WithdrawCardWidget extends StatelessWidget {
   final Withdraws? withdraw;

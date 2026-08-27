@@ -1,6 +1,6 @@
 
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/interface/repository_interface.dart';
 
 abstract class RefundRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getRefundReqDetails(int? orderDetailsId);

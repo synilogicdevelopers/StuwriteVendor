@@ -1,8 +1,8 @@
 
 
-import 'package:sixvalley_vendor_app/features/order/domain/repositories/order_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/services/order_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_list_filter_model.dart';
+import 'package:stuwrite_vendor/features/order/domain/repositories/order_repository_interface.dart';
+import 'package:stuwrite_vendor/features/order/domain/services/order_service_interface.dart';
+import 'package:stuwrite_vendor/features/order_details/domain/models/order_list_filter_model.dart';
 
 class OrderService implements OrderServiceInterface{
   final OrderRepositoryInterface orderRepoInterface;

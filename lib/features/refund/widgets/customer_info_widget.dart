@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/refund/domain/models/refund_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:stuwrite_vendor/features/refund/domain/models/refund_model.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_image_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 

@@ -1,10 +1,10 @@
 
 
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/barcode/domain/repositories/barcode_reposity_interface.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/dio/dio_client.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/barcode/domain/repositories/barcode_reposity_interface.dart';
+import 'package:stuwrite_vendor/utill/app_constants.dart';
 
 class BarcodeRepository implements BarcodeRepositoryInterface{
   final DioClient dioClient;

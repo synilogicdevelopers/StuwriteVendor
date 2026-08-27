@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/vat_management/domain/models/vat_report_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/vat_management/domain/models/vat_report_model.dart';
+import 'package:stuwrite_vendor/helper/date_converter.dart';
+import 'package:stuwrite_vendor/helper/price_converter.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 
 

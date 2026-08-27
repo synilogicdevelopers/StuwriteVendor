@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/ai/domain/repositories/ai_repository_interface.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/dio/dio_client.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/ai/domain/repositories/ai_repository_interface.dart';
+import 'package:stuwrite_vendor/utill/app_constants.dart';
 import 'package:image_picker/image_picker.dart';
 
 class AiRepository implements AiRepositoryInterface {

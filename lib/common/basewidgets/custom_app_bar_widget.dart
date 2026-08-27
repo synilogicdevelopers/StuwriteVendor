@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/controllers/bottom_menu_controller.dart';
-import 'package:sixvalley_vendor_app/features/product_details/controllers/product_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/review/controllers/product_review_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:stuwrite_vendor/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:stuwrite_vendor/features/dashboard/controllers/bottom_menu_controller.dart';
+import 'package:stuwrite_vendor/features/product_details/controllers/product_details_controller.dart';
+import 'package:stuwrite_vendor/features/review/controllers/product_review_controller.dart';
+import 'package:stuwrite_vendor/theme/controllers/theme_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class CustomAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String? title;

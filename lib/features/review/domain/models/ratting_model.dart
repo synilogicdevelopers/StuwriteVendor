@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart';
+import 'package:stuwrite_vendor/features/review/domain/models/review_model.dart';
 
 class RattingModel {
   int? totalSize;

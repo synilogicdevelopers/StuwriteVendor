@@ -1,12 +1,12 @@
 import 'dart:io';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/repositories/profile_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/services/profice_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/features/profile/domain/models/profile_body.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/profile/domain/models/profile_info.dart';
+import 'package:stuwrite_vendor/features/profile/domain/repositories/profile_repository_interface.dart';
+import 'package:stuwrite_vendor/features/profile/domain/services/profice_service_interface.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
+import 'package:stuwrite_vendor/main.dart';
 
 class ProfileService implements ProfileServiceInterface{
   final ProfileRepositoryInterface profileRepoInterface;

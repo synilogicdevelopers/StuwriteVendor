@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
 
 class TransactionShimmerWidget extends StatelessWidget {
   const TransactionShimmerWidget({super.key});

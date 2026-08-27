@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/category_model.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/category_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/category_model.dart';
+import 'package:stuwrite_vendor/features/product/controllers/category_controller.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/product/controllers/product_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_snackbar_widget.dart';
 
 class CategoryFilterBottomSheetWidget extends StatelessWidget {
   const CategoryFilterBottomSheetWidget({super.key});

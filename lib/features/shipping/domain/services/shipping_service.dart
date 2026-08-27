@@ -1,6 +1,6 @@
-import 'package:sixvalley_vendor_app/features/shipping/domain/models/shipping_model.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/repositories/shipping_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/services/shipping_service_interface.dart';
+import 'package:stuwrite_vendor/features/shipping/domain/models/shipping_model.dart';
+import 'package:stuwrite_vendor/features/shipping/domain/repositories/shipping_repository_interface.dart';
+import 'package:stuwrite_vendor/features/shipping/domain/services/shipping_service_interface.dart';
 
 class ShippingService implements ShippingServiceInterface{
   final ShippingRepositoryInterface shippingRepoInterface;

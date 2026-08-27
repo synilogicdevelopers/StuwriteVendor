@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/vat_management/domain/models/vat_report_model.dart';
-import 'package:sixvalley_vendor_app/features/vat_management/domain/services/vat_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/vat_management/domain/models/vat_report_model.dart';
+import 'package:stuwrite_vendor/features/vat_management/domain/services/vat_service_interface.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
 
 
 

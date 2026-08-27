@@ -2,17 +2,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/refund/widgets/refund_detail_shimmer.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/refund/controllers/refund_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/refund/widgets/change_log_widget.dart';
-import 'package:sixvalley_vendor_app/features/refund/widgets/refund_details_widget.dart';
-import 'package:sixvalley_vendor_app/features/refund/domain/models/refund_model.dart';
+import 'package:stuwrite_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:stuwrite_vendor/features/refund/widgets/refund_detail_shimmer.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/refund/controllers/refund_controller.dart';
+import 'package:stuwrite_vendor/main.dart';
+import 'package:stuwrite_vendor/theme/controllers/theme_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/features/refund/widgets/change_log_widget.dart';
+import 'package:stuwrite_vendor/features/refund/widgets/refund_details_widget.dart';
+import 'package:stuwrite_vendor/features/refund/domain/models/refund_model.dart';
 
 class RefundDetailsScreen extends StatefulWidget {
   final RefundModel? refundModel;

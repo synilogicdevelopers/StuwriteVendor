@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/add_product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/add_product_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
 
 class ProductGeneralInfoData {
   final String? categoryId;

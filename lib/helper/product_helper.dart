@@ -1,6 +1,6 @@
 import 'dart:math' as math;
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/product_details/enums/preview_type.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/features/product_details/enums/preview_type.dart';
 import 'package:html/parser.dart';
 import 'package:html/dom.dart';
 

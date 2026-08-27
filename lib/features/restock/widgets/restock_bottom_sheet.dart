@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/horizontal_loader.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/variation_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/restock/controllers/restock_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/horizontal_loader.dart';
+import 'package:stuwrite_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/add_product_controller.dart';
+import 'package:stuwrite_vendor/features/addProduct/controllers/variation_controller.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/features/restock/controllers/restock_controller.dart';
+import 'package:stuwrite_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:stuwrite_vendor/helper/price_converter.dart';
+import 'package:stuwrite_vendor/localization/controllers/localization_controller.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class RestockSheetWidget extends StatefulWidget {
   final String? title;

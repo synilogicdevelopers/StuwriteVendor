@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_button_widget.dart';
 class MyDialogWidget extends StatelessWidget {
   final bool isFailed;
   final double rotateAngle;

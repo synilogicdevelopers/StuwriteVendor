@@ -1,7 +1,7 @@
 
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/data/model/image_full_url.dart';
+import 'package:stuwrite_vendor/features/order/domain/models/order_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
 class OrderDetailsModel {
   int? id;
   int? orderId;

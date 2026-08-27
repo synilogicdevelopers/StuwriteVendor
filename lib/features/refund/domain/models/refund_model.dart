@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/chat_model.dart';
+import 'package:stuwrite_vendor/data/model/image_full_url.dart';
+import 'package:stuwrite_vendor/features/chat/domain/models/chat_model.dart';
 
 class RefundModel {
   int? id;

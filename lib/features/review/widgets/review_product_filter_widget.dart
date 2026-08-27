@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/filter_model.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/review/controllers/product_review_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/product/controllers/product_controller.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/filter_model.dart';
+import 'package:stuwrite_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:stuwrite_vendor/features/review/controllers/product_review_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class ReviewProductFilterWidget extends StatefulWidget {
   const ReviewProductFilterWidget({super.key});

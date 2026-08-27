@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:stuwrite_vendor/features/review/domain/models/review_model.dart';
+import 'package:stuwrite_vendor/helper/date_converter.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/theme/controllers/theme_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 class ReviewWidget extends StatelessWidget {
   final int? index;

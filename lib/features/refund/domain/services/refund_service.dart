@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/features/refund/domain/repositories/refund_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/refund/domain/services/refund_service_interface.dart';
+import 'package:stuwrite_vendor/features/refund/domain/repositories/refund_repository_interface.dart';
+import 'package:stuwrite_vendor/features/refund/domain/services/refund_service_interface.dart';
 
 class RefundService implements RefundServiceInterface{
   final RefundRepositoryInterface refundRepoInterface;

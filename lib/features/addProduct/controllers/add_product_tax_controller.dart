@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/tax_vat_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/services/add_product_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/models/tax_vat_model.dart';
+import 'package:stuwrite_vendor/features/addProduct/domain/services/add_product_service_interface.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/helper/api_checker.dart';
 
 
 class AddProductTaxController extends ChangeNotifier {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/order/controllers/order_controller.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/order_details/widgets/order_product_list_item_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:stuwrite_vendor/features/order/controllers/order_controller.dart';
+import 'package:stuwrite_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:stuwrite_vendor/features/order_details/widgets/order_product_list_item_widget.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
 
 
 

@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:stuwrite_vendor/data/model/response/base/error_response.dart';
+import 'package:stuwrite_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:stuwrite_vendor/main.dart';
 
 
 class ApiErrorHandler {

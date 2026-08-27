@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/shipping/controllers/shipping_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/shipping/controllers/shipping_controller.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
 
 class DropDownForShippingTypeWidget extends StatelessWidget {
   const DropDownForShippingTypeWidget({super.key});

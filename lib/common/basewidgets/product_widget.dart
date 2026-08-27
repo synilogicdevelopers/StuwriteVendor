@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/confirmation_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/rating_bar_widget.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/screens/add_product_tab_view_screen.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/filter_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/product_details/screens/product_details_screen.dart';
+import 'package:stuwrite_vendor/common/basewidgets/confirmation_dialog_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:stuwrite_vendor/common/basewidgets/rating_bar_widget.dart';
+import 'package:stuwrite_vendor/features/addProduct/screens/add_product_tab_view_screen.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/filter_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/product_model.dart';
+import 'package:stuwrite_vendor/helper/color_helper.dart';
+import 'package:stuwrite_vendor/localization/language_constrants.dart';
+import 'package:stuwrite_vendor/features/product/controllers/product_controller.dart';
+import 'package:stuwrite_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:stuwrite_vendor/main.dart';
+import 'package:stuwrite_vendor/utill/dimensions.dart';
+import 'package:stuwrite_vendor/utill/images.dart';
+import 'package:stuwrite_vendor/utill/styles.dart';
+import 'package:stuwrite_vendor/features/product_details/screens/product_details_screen.dart';
 
 
 

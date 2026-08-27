@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/filter_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/repositories/product_repository_interface.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/dio/dio_client.dart';
+import 'package:stuwrite_vendor/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:stuwrite_vendor/data/model/response/base/api_response.dart';
+import 'package:stuwrite_vendor/features/product/domain/models/filter_model.dart';
+import 'package:stuwrite_vendor/features/product/domain/repositories/product_repository_interface.dart';
+import 'package:stuwrite_vendor/helper/date_converter.dart';
+import 'package:stuwrite_vendor/utill/app_constants.dart';
 
 
 class ProductRepository implements ProductRepositoryInterface{
