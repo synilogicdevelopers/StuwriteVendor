@@ -4,7 +4,7 @@ import '../features/shop/domain/models/guideline_model.dart';
 
 class AppConstants {
   static const String appName = 'StuWrite'; ///Flutter SDK 3.41.1
-  static const String appVersion = '16.1';
+  static const String appVersion = '1.0.1';
   static const String companyName = 'StuWrite';
   static const bool demo = false;
   static const int imageQuality = 100;
@@ -219,7 +219,7 @@ class AppConstants {
   static const String userPassword = 'user_password';
   static const String userNumber = 'user_number';
   static const String searchAddress = 'search_address';
-  static const String topic = 'six_valley_seller';
+  static const String topic = 'stuwrite vendor';
   static const String maintenanceModeTopic = 'maintenance_mode_start_vendor';
   static const String userEmail = 'user_email';
   static const String langKey = 'lang';
