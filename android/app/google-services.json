@@ -133,7 +133,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:76471554747:android:0ac224c482bca2536d0f9e",
         "android_client_info": {
-          "package_name": "com.sixamtech.sixvalley.seller"
+          "package_name": "com.stuwrite.vendor"
         }
       },
       "oauth_client": [
@@ -169,7 +169,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:76471554747:android:c47b355578169ce66d0f9e",
         "android_client_info": {
-          "package_name": "com.sixamtech.sixvalley.seller"
+          "package_name": "com.stuwrite.vendor"
         }
       },
       "oauth_client": [
