@@ -49,7 +49,7 @@
                android:resource="@xml/provider_paths"/>
        </provider>
 
-       <meta-data android:name="com.google.android.geo.API_KEY" android:value="map_api_key_here" />
+       <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCV7vSdp699utV2n3AtUvQIrtO-TSWksBo" />
 
 
         <activity
